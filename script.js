@@ -10,6 +10,7 @@ let activeSlideIndex = 0;
 // Active slide index base is 0
 // We subtract 1 from base slide length
 //Multiply that by 100 because of each slide taking 100vh
+//This will allow the base of the slider to be effected
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
