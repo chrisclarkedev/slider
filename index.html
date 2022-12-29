@@ -4,9 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider</title>
   </head>
   <body>
-    <h1>Starting</h1>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: red">
+          <h1>Jamie Foy</h1>
+          <p>DeathWish</p>
+        </div>
+        <div style="background-color: rgba(0, 0, 255, 0.807)">
+          <h1>Tyshawn Jones</h1>
+          <p>Adidas</p>
+        </div>
+        <div style="background-color: limegreen">
+          <h1>David Gravette</h1>
+          <p>Creature</p>
+        </div>
+        <div style="background-color: whitesmoke">
+          <h1>Nyjah</h1>
+          <p>Nike SB</p>
+        </div>
+      </div>
+      <div class="right_slide">
+        <div style="background-image: url('./images/jamie_f.jpg')"></div>
+        <div style="background-image: url('./images/tyshawn_j.jpg')"></div>
+        <div style="background-image: url('./images/david_g.jpg')"></div>
+        <div style="background-image: url('./images/nyjah_h.jpeg')"></div>
+      </div>
+      <div class="action-button"></div>
+      <button class="down-button">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+      <button class="up-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
   </body>
 </html>
